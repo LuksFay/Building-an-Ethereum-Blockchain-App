@@ -1,0 +1,11 @@
+// Solidity es un lenguaje de programacion de tipado fuerte, lo que quiere decir que las variables tienen que ser definidas por lo que van a contener. Se parece bastante a JavaScript en cuanto a la sintaxis del codigo.
+// Las 'Statement' o Declaraciones (en español) deben ir terminadas en ; como es el caso de la declaracion de la variable helloMessage, que contiene el 'string' o la 'cadena' de texto 'hello world'. Esto incluye tambien a la declaracion principal del codigo, 'pragma'.
+//Cabe aclarar que estoy siendo formal por si alguien ve o lee para guiarse mi codigo, y de paso como una autoayuda de memoria :P
+//En el caso del contrato HelloWorld al no ser una Declaracion, sino un 'Construct' o una Construccion, no lleva ; al finalizar. La mejor manera de definir que es una Construccion es la que nos otorga el diccionario...un poco adaptada al codigo: un objeto que contiene varios elementos conceptuales. Es decir que el contrato almacena en su interior una serie de elementos como variables y funciones para que pueda realizar la tarea que queremos asignarle.
+// La palabra 'private' dentro de la declaracion nos indica que la variable solo va a estar disponible dentro de este contrato. Lo que quire decir que ninguna funcion o programas externos pueden referenciar el contenido de la variable helloMessage.
+
+//En el caso de la funcion la sintaxis comienza similar a Javascript, definiendo el nombre de la funcion, y al no ser necesario en este caso no asignando ningun parametro dentro de los parentesis.
+// La funcion es publica lo que quiere decir que cualquiera, fuera del contrato puede hacer un llamado a la funcion.
+// view significa que solo va a tratar con valores locales, no toca la blockchain.
+// return(string memory) significa que cuando sea llamada va a devolver una cadena de texto proveniente de la memoria local.
+//dentro de la funcion, la respuesta es devolver el valor de la variable que declare al inicio.
