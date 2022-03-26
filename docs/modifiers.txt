@@ -1,0 +1,29 @@
+main modifiers
+
+public 
+una funcion publica es una que cualquiera puede
+llamar. es decir una app del telefono podria
+invocarla.
+
+una variable publica es aquella que cualquiera
+puede leer. no me queda muy claro todavia si 
+pueden asignarle un nuevo valor.
+
+external 
+solo una entidad externa puede invocar la funcion
+o acceder a la variable
+
+internal
+solo las funciones en el smart contract o cualquier contrato
+derivado pueden invocar las funciones
+en el caso de las variables son unicamente accesibles
+dentro del smart contract o derivado del mismo
+
+private
+solo funciones y variables dentro del contrato pueden acceder
+y leerlas
+
+other modifiers
+
+getter (get) las funciones get toman valores y los retornan
+setter (set) las funciones set dan input values, y luego hacen algo con ellos
